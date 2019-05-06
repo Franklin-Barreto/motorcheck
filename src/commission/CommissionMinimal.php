@@ -1,5 +1,5 @@
 <?php
-namespace FPBarreto\Motorcheck;
+namespace FPBarreto\Motorcheck\Commission;
 
 class CommissionMinimal implements ICommission
 {
@@ -11,7 +11,7 @@ class CommissionMinimal implements ICommission
 
     }
 
-    public function commission(Salesman $salesman)
+    public function commission(\FPBarreto\Motorcheck\Sales\Salesman $salesman)
     {
         $salesman->setPercent(7);
         $salesman->setCommission($salesman->getTotalAmount() * 0.07);

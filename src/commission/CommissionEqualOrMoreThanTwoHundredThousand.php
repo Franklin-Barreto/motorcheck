@@ -1,5 +1,5 @@
 <?php
-namespace FPBarreto\Motorcheck;
+namespace FPBarreto\Motorcheck\Commission;
 
 class CommissionEqualOrMoreThanTwoHundredThousand implements ICommission
 {
@@ -10,7 +10,7 @@ class CommissionEqualOrMoreThanTwoHundredThousand implements ICommission
         $this->nextCommission = $nextCommission;
     }
 
-    public function commission(Salesman $salesman)
+    public function commission(\FPBarreto\Motorcheck\Sales\Salesman $salesman)
     {
         if ($salesman->getTotalAmount() > 200000) {
             $salesman->setPercent(11);

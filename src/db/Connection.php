@@ -1,6 +1,8 @@
 <?php
-namespace FPBarreto\Motorcheck;
-use FPBarreto\Motorcheck\IConnection;
+namespace FPBarreto\Motorcheck\DB;
+
+use FPBarreto\Motorcheck\DB\IConnection;
+
 class Connection implements IConnection
 {
     private $host;

@@ -1,5 +1,5 @@
 <?php
-namespace FPBarreto\Motorcheck;
+namespace FPBarreto\Motorcheck\DB;
 
 interface IConnection
 {

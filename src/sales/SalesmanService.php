@@ -1,7 +1,8 @@
 <?php
-namespace FPBarreto\Motorcheck;
+namespace FPBarreto\Motorcheck\Sales;
 
 use FPBarreto\Motorcheck\Calculator;
+use FPBarreto\Motorcheck\DB\IConnection;
 
 class SalesmanService
 {

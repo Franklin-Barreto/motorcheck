@@ -1,5 +1,5 @@
 <?php
-namespace FPBarreto\Motorcheck;
+namespace FPBarreto\Motorcheck\Report;
 
 use League\Csv\Writer;
 
